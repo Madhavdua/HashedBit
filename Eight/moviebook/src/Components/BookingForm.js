@@ -22,7 +22,9 @@ function BookingForm() {
         <div class="alert alert-success" role="alert">
           <div className="text-center my-5">
             <h3>
-              Booked {Count} ticket/s for {Title}
+              Booked {Count} ticket/s for {Title} 
+              <br/>
+              Ticket Id: {Math.floor(Math.random()*1000)}
             </h3>
           </div>
           <div className="text-center my-2">
